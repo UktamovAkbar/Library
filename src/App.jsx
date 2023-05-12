@@ -4,10 +4,12 @@ import Layout from './Layout.jsx'
 import Navbar from './navbar/Navbar'
 
 const App = () => {
+
   return (
-      <Routes>
-        <Route path='/' element={<Layout />} />
-      </Routes>
+    <Routes>
+      <Route path='/' element={<Layout />} />
+    </Routes>
+
   )
 }
 
