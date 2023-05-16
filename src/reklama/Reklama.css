@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.reklama_section {
+  padding: 0px 40px;
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+.reklama_columns {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  box-sizing: border-box;
+}
+.reklama_column {
+  box-sizing: border-box;
+  padding: 0px;
+}
+.is-10 {
+    width: 13%;
+}
+.is-35{
+    width: 35%;
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+.reklama_column h4{
+    font-size: 16px;
+    padding-bottom: 12px;
+    margin-top: 40px;
+}
+.reklama_column h5{
+    padding-bottom: 13px;
+}
+.reklama_column p{
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+.r{
+    margin-top: 15px;
+}
