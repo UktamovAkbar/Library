@@ -6,8 +6,8 @@ const Navbar = () => {
   return (
     <div className='navbar'>
       <div className="navbar_start">
-        <img src="book.jpg" alt="" />
-        <Link to='/' className='navbar_start__h3'>Library</Link>
+        <Link to='/'> <img className='navbar_start_img' src="/unnamed.png" alt="" /></Link>
+        <Link to='/' className='navbar_start__h3'>  Library</Link>
 
         <div className="navbar_center">
           <input className='navbar_center_inp' type="text" name="" id="" />
