@@ -17,7 +17,7 @@ const Home = () => {
               <div className="home_column is-20"></div>
               <div className="home_column is-30">
                 <h1>Library - читайте книги <br /> бесплатно</h1>
-                <button className="home_regist_btn">Зарегистрироваться</button>
+                <button className="home_regist_btn">Зарегистрироватьсяa</button>
               </div>
               <div className="home_column is-50">
                 <img src="./image/devushka-kniga.png" alt="" />
