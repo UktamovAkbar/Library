@@ -7,6 +7,8 @@ import About from "./about/About"
 import Books from "./books/Books";
 import Menu from "./menu/Menu";
 import Pictuare from "./pictuare/Pictuare";
+import Book from "./book/Book";
+import SignUp from "./signUp/SignUp";
 
 const App = () => {
   return (
@@ -19,6 +21,8 @@ const App = () => {
       <Route path="/books" element={<Books/>} />
       <Route path='/menu' element={<Menu/>} />
       <Route path='/pictuare' element={<Pictuare/>} />
+      <Route path="book" element={<Book/>} />
+      <Route path="signup" element={<SignUp/>} />
 
     </Routes>
   );

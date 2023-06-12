@@ -15,11 +15,11 @@
 .menu_center {
     display: flex;
     justify-content: center;
-    gap: 100px;
+    gap: 50px;
 }
 
 .menu_center1 {
-    width: 130px;
+    width: 180px;
     height: 38px;
     border-radius: 10px;
     display: flex;
@@ -32,12 +32,14 @@
     font-size: 17px;
     color: black;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .book1 {
     color: black;
     width: 15px;
     height: 15px;
+    cursor: pointer;
 }
 
 .book2 {

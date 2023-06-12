@@ -9,9 +9,7 @@ function Pictuare() {
                 <h1 className="pictuare_start_h1">Library — читайте <br />
                     и слушайте по одной <br />
                     подписке</h1>
-
                 <img className="pictuare_start_img" src="/person.png" alt="" />
-
             </div>
         </div>
 

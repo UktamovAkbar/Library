@@ -1,4 +1,5 @@
 import React from "react";
+import Book from "../book/Book";
 import Footer from "../footer/Footer";
 import Menu from "../menu/Menu";
 import Navbar from "../navbar/Navbar";
@@ -18,6 +19,10 @@ const Home = () => {
 
       <div className="">
         <Pictuare />
+      </div>
+
+      <div className="book">
+        <Book />
       </div>
 
       <div className="home_footer">

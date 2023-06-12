@@ -41,7 +41,7 @@
 }
 
 .navbar_center_inp:hover {
-    border: 1px solid gold;
+    border: 2px solid aqua;
 	transition: all 0.5s ease;
 }
 
@@ -59,7 +59,7 @@
 }
 
 .navbar_end_link:hover {
-    color: rgb(156, 137, 25);
+    color: aqua;
     margin-top: -7px;
 	transition: all 0.5s ease;
 }
