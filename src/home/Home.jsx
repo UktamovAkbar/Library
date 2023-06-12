@@ -5,6 +5,8 @@ import Menu from "../menu/Menu";
 import Navbar from "../navbar/Navbar";
 import Pictuare from "../pictuare/Pictuare";
 import './Home.css'
+import Books from "../books/Books";
+import Reklama from "../reklama/Reklama";
 
 const Home = () => {
   return (
@@ -12,19 +14,7 @@ const Home = () => {
       <div className="">
         <Navbar />
       </div>
-
-      <div className="">
-        <Menu />
-      </div>
-
-      <div className="">
-        <Pictuare />
-      </div>
-
-      <div className="book">
-        <Book />
-      </div>
-
+   
       <div className="home_footer">
         <Footer />
       </div>
