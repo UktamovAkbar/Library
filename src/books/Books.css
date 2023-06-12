@@ -4,7 +4,7 @@
 }
 .books_section{
   padding: 0px 40px;
-  background-color: rgb(255, 212, 81);;
+  background-color: aqua;
   color: black;
   padding-bottom: 100px;
   padding-top: 10px;
@@ -30,4 +30,8 @@
   padding-left: 20px;
   padding-top: 10px;
   font-weight: 500;
+}
+.books_img{
+  width: 200px;
+  height: 200px;
 }

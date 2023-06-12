@@ -5,9 +5,11 @@ import './Home.css'
 import Books from "../books/Books";
 import Reklama from "../reklama/Reklama";
 
+
 const Home = () => {
   return (
     <div>
+      
       <div className="">
         <Navbar />
       </div>
@@ -37,7 +39,8 @@ const Home = () => {
         <div className=""><Reklama/></div>
       <div className="home_footer">
         <Footer />
-      </div>
+      </div> 
+
     </div>
   );
 };
