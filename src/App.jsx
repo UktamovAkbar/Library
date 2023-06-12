@@ -9,6 +9,9 @@ import Reklama from "./reklama/Reklama";
 import SignIn from "./sign-in/SignIn";
 import SignUp from "./sign-up/SignUp";
 import NotFoundPage from "./not-found-page/NotFoundPage";
+import Menu from "./menu/Menu";
+import Pictuare from "./pictuare/Pictuare";
+import Book from "./book/Book";
 
 const App = () => {
   return (
@@ -22,6 +25,13 @@ const App = () => {
       <Route path="/reklama" element={<Reklama />} />
       <Route path="/sign-in" element={<SignIn />} />
       <Route path="/sign-up" element={<SignUp />} />
+      <Route path="/footer" element={<Footer />} />
+      <Route path="/about" element={<About />} />
+      <Route path="/books" element={<Books />} />
+      <Route path="/menu" element={<Menu />} />
+      <Route path="/pictuare" element={<Pictuare />} />
+      <Route path="book" element={<Book />} />
+      <Route path="signup" element={<SignUp />} />
     </Routes>
   );
 };

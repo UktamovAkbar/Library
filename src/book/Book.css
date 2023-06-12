@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.book {
+    width: 100%;
+    height: 600px;
+    background-color: rgba(0, 255, 255, 0.308);
+    
+}

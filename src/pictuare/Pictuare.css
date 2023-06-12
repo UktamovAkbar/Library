@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.pictuare {
+    width: 100%;
+    height: 80px;
+    padding-bottom: 600px;
+    background-color: #F5F5F5;
+    margin-top: -80px;
+}
+
+.pictuare_start{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.pictuare_start_h1 {
+    font-size: 55px;
+    padding-left: 100px;
+    margin-right: -300px;
+    font-family: 'Strong', sans-serif;
+    
+}
+
+.pictuare_start_img {
+    width: 780px;
+    height: 550px;
+}
