@@ -130,31 +130,37 @@
 
 .signup_bottom3 {
     width: 100px;
-    height: 30px;
+    height: 35px;
     border-radius: 10px;
     border: solid 0px white;
     cursor: pointer;
-    background: grey;
+    background: #efeee9;
     margin-left: -9px;
+    color: #1DA1F2;
+    padding-top: 4px;
 } 
 
 .signup_bottom4 {
     width: 100px;
-    height: 30px;
+    height: 35px;
     border-radius: 10px;
     border: solid 0px white;
     cursor: pointer;
-    background: grey;
+    background: #33DB52;
     margin-left: -25px;
     margin-right: -25px;
+    color: white;
+    padding-top: 4px;
+
 } 
 
 .signup_bottom5 {
     width: 100px;
-    height: 30px;
+    height: 35px;
     border-radius: 10px;
     border: solid 0px white;
     cursor: pointer;
-    background: grey;
-    /* margin-left: -55px; */
+    background: #EFEEE9;
+    padding-top: 4px;
+    color: red;
 } 
