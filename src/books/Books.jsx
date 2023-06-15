@@ -11,6 +11,7 @@ const Books = () => {
           Фербер», «Альпина Паблишер», «Олимп-Бизнес» и других
         </p>
         <img src="/peregovori_kniga1.png" alt="" className="books_img" />
+        <img className="pushpin" src="/pushpin.png" alt="" />
       </div>
     </div>
   );

@@ -28,5 +28,7 @@
 
 .pictuare_start_img {
     width: 780px;
-    height: 550px;
+    height: 580px;
+    margin-top: 50px;
+    position: relative;
 }
