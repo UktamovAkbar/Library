@@ -164,3 +164,26 @@
     padding-top: 4px;
     color: red;
 } 
+
+.signup_bottom11 {
+    width: 110px;
+    height: 30px;
+    border-radius: 10px;
+    border: solid 0px white;
+    cursor: pointer;
+    background: red;
+    margin-left: -12px;
+    margin-top: 12px;
+    color: white;
+}
+
+.signup_bottom22 {
+    width: 110px;
+    height: 30px;
+    border-radius: 10px;
+    border: solid 1px #1DA1F2;
+    cursor: pointer;
+    background-color: #1877F2;
+    margin-left: -19px;
+    margin-top: 12px;
+} 
