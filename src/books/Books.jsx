@@ -211,6 +211,11 @@ const Books = () => {
             </div>
           </div>
         </div>
+
+        {/* </p>
+        <img src="/peregovori_kniga1.png" alt="" className="books_img" />
+        <img className="pushpin" src="/pushpin.png" alt="" /> */}
+
       </div>
     </div>
   );

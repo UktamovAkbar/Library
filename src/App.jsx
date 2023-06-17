@@ -5,13 +5,13 @@ import Home from "./home/Home";
 import Navbar from "./navbar/Navbar";
 import About from "./about/About";
 import Books from "./books/Books";
+import Menu from "./menu/Menu";
+import Pictuare from "./pictuare/Pictuare";
+import Book from "./book/Book";
 import Reklama from "./reklama/Reklama";
 import SignIn from "./sign-in/SignIn";
 import SignUp from "./sign-up/SignUp";
 import NotFoundPage from "./not-found-page/NotFoundPage";
-import Menu from "./menu/Menu";
-import Pictuare from "./pictuare/Pictuare";
-import Book from "./book/Book";
 
 const App = () => {
   return (

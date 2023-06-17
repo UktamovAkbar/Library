@@ -14,6 +14,7 @@ const Home = () => {
       <div className="">
         <Navbar />
       </div>
+   
       <div className="">
         <Menu />
       </div>
