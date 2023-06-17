@@ -15,10 +15,10 @@ const Navbar = () => {
       </div>
 
       <div className="navbar_end">
-        <Link className='navbar_end_link' to='/'>books</Link>
-        <Link className='navbar_end_link' to='/'>what pick</Link>
-        <Link className='navbar_end_link' to='/'>about work</Link>
-        <Link className='navbar_end_link' to='/signup'>sign up</Link>
+        <Link className='navbar_end_link' to='/'>Книги</Link>
+        <Link className='navbar_end_link' to='/'>Что выбрать</Link>
+        <Link className='navbar_end_link' to='/'>Библиотека</Link>
+        <Link className='navbar_end_link' to='/signup'>Зарегистрироваться</Link>
       </div>
     </div>
   )

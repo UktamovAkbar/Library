@@ -1,10 +1,9 @@
 * {
   box-sizing: border-box;
-  
 }
-.books_section{
+.books_section {
   padding: 0px 40px;
-  background-color: rgb(255, 212, 81);;
+  background-color: rgb(255, 212, 81);
   color: black;
   padding-bottom: 100px;
   padding-top: 10px;
@@ -13,25 +12,67 @@
 .books_box {
   margin-top: 30px;
   width: 1200px;
-  height: 350px;
+  height: 410px;
   background-color: rgb(255, 255, 255);
   align-items: center;
   margin-left: 290px;
   border-radius: 15px;
 }
-.books_box h2{
+.books_box h2 {
   font-size: 19px;
   padding-left: 20px;
   padding-top: 20px;
   font-weight: 600;
 }
-.books_box p{
+.books_box_p {
   font-size: 16px;
   padding-left: 20px;
   padding-top: 10px;
   font-weight: 500;
 }
-.books_img{
-  width: 200px;
-  height: 22  0px;
+.books_img {
+  width: 130px;
+  height: 180px;
+}
+.books-inner_columns {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  display: inline-block;
+  width: 10%;
+  margin-left: 24px;
+}
+.books-inner_column {
+  box-sizing: border-box;
+  padding: 0px;
+  padding-left: 0px;
+}
+.books-inner_section {
+  padding: 0px;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+.books-inner_h4 {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  display: inline-block;
+
+  font-size: 14px;
+  font-weight: 600;
+}
+.books-inner_p {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  display: inline-block;
+  font-size: 14px;
+  color: rgb(179, 77, 0);
+  font-weight: 500;
+  cursor: pointer;
+}
+.books-inner_p:hover{
+  color:rgb(241, 118, 23);
 }

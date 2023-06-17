@@ -9,10 +9,10 @@ function Menu() {
         <div className="menu">
            <div className="menu_center">
             <div className="menu_center1"> <Link className="menu_center1__link" to='/'> <FaBook className="book1"></FaBook> Красивое</Link> </div>
-            <div className="menu_center1"> <Link className="menu_center1__link" to='/'> <FaBookDead className="book2"></FaBookDead> фыавппыав</Link> </div>
-            <div className="menu_center1"> <Link className="menu_center1__link" to='/'> <FaBookMedical className="book3"></FaBookMedical> фыафываейу</Link> </div>
-            <div className="menu_center1"> <Link className="menu_center1__link" to='/'> <FaBookOpen className="book4"></FaBookOpen> унуаые</Link> </div>
-            <div className="menu_center1"> <Link className="menu_center1__link" to='/'> <FaBookReader className="book5"></FaBookReader> цшмйщвийыл</Link> </div>
+            <div className="menu_center1"> <Link className="menu_center1__link" to='/'> <FaBookDead className="book2"></FaBookDead> Мотивационные</Link> </div>
+            <div className="menu_center1"> <Link className="menu_center1__link" to='/'> <FaBookMedical className="book3"></FaBookMedical> Лучшее</Link> </div>
+            <div className="menu_center1"> <Link className="menu_center1__link" to='/'> <FaBookOpen className="book4"></FaBookOpen> Новинки</Link> </div>
+            <div className="menu_center1"> <Link className="menu_center1__link" to='/'> <FaBookReader className="book5"></FaBookReader> Классика</Link> </div>
            </div>
         </div>
     );
