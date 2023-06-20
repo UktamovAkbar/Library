@@ -6,9 +6,9 @@ function Pictuare() {
     return (
         <div className="pictuare">
             <div className="pictuare_start">
-                <h1 className="pictuare_start_h1">  Library — читайте <br />
+                <h3 className="pictuare_start_h1"> <span className="pictuare_start_h1_span">Library</span>    — читайте <br />
                     и слушайте по одной <br />
-                    подписке</h1>
+                    подписке</h3>
                 <img className="pictuare_start_img" src="/person.png" alt="" />
             </div>
         </div>

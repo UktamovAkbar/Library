@@ -37,13 +37,20 @@
     height: 35px;
     border-radius: 10px;
     padding-left: 10px;
-    border: 1px grey solid; 
+    border: 1px black solid; 
 }
 
-.navbar_center_inp:hover {
+.navbar_center_link {
+    position: absolute;
+    margin: 8px -25px;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+/* .navbar_center_inp:hover {
     border: 2px solid rgb(255, 212, 81);
-
-}
+} */
 
 .navbar_end {
     display: flex;

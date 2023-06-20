@@ -1,6 +1,7 @@
 import React from 'react'
 import './Navbar.css'
 import { Link } from 'react-router-dom'
+import { FaSearch } from 'react-icons/fa'
 
 const Navbar = () => {
   return (
@@ -10,7 +11,8 @@ const Navbar = () => {
         <Link to='/' className='navbar_start__h3'>  Library</Link>
 
         <div className="navbar_center">
-          <input className='navbar_center_inp' type="text" name="" id="" />
+          <input className='navbar_center_inp' type="text"  /> 
+          <Link className='navbar_center_link'> <FaSearch/> </Link>
         </div>
       </div>
 

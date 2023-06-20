@@ -19,11 +19,15 @@
 }
 
 .pictuare_start_h1 {
-    font-size: 55px;
+    font-size: 52px;
     padding-left: 100px;
     margin-right: -300px;
     font-family: 'Strong', sans-serif;
     
+}
+
+.pictuare_start_h1_span {
+    font-size: 58px;
 }
 
 .pictuare_start_img {
@@ -32,3 +36,15 @@
     margin-top: 50px;
     position: relative;
 }
+
+.pic_regist_btn {
+    margin-top: 20px;
+    width: 200px;
+    height: 45px;
+    background-color: rgb(228, 97, 36);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: 700;
+  }

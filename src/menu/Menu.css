@@ -35,6 +35,11 @@
     cursor: pointer;
 }
 
+.menu_center1__link:hover {
+    color: rgb(255, 212, 81);
+	transition: all 0.3s ease;
+}
+
 .book1 {
     color: black;
     width: 15px;
