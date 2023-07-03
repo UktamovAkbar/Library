@@ -12,6 +12,7 @@ import Reklama from "./reklama/Reklama";
 import SignIn from "./sign-in/SignIn";
 import SignUp from "./sign-up/SignUp";
 import NotFoundPage from "./not-found-page/NotFoundPage";
+import MenuBook1 from "./menu,books/MenuBook1";
 
 const App = () => {
   return (
@@ -32,6 +33,7 @@ const App = () => {
       <Route path="/pictuare" element={<Pictuare />} />
       <Route path="book" element={<Book />} />
       <Route path="signup" element={<SignUp />} />
+      <Route path="menubook1" element={<MenuBook1 />} />
     </Routes>
   );
 };

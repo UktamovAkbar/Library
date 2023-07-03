@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menubook1 {
+    display: flex;
+    justify-content: center;
+}
+
+.menubook1_books {
+    width: 1350px;
+    height: 300px;
+    margin-top: 50px;
+    background-color: grey;
+    border-radius: 15px;
+    margin-bottom: 100px;
+}
