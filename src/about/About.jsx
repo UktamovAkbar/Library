@@ -1,11 +1,13 @@
 import React from "react";
 import Footer from "../footer/Footer";
+import Menu from "../menu/Menu";
+import Navbar from "../navbar/Navbar";
 import "./About.css";
 
 const About = () => {
   return (
     <div>
-      <div className="">Navbar</div>
+      <div className=""> <Navbar/></div>
 
       <div className="about">
         <div className="about_columns">

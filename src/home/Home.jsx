@@ -14,38 +14,19 @@ const Home = () => {
       <div className="">
         <Navbar />
       </div>
-   
+
       <div className="">
         <Menu />
       </div>
+
       <div className="">
-        {" "}
         <Pictuare />
       </div>
 
-      {/* <div className="">
-        <div className="home_section">
-          <div className="home_columns">
-            <div className="home_column is-20"></div>
-            <div className="home_column is-30">
-              <h1>
-                Library - читайте книги <br /> бесплатно
-              </h1>
-              <button className="home_regist_btn">Зарегистрироватьсяa</button>
-            </div>
-            <div className="home_column is-50">
-              <img src="./image/devushka-kniga.png" alt="" />
-            </div>
-          </div>
-        </div>
-      </div> */}
       <div className="">
         <Books />
       </div>
-      <div className="">
-        <Books />
-      </div>
-      
+
       <div className="">
         <Reklama />
       </div>
@@ -53,6 +34,7 @@ const Home = () => {
       <div className="home_footer">
         <Footer />
       </div>
+      
     </div>
   );
 };
